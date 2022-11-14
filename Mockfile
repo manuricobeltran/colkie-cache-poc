@@ -1,0 +1,14 @@
+sourceryCommand: null
+sourceryTemplate: null
+ProjectTests:
+  sources:
+    include:
+    - ./Project
+  output: ./ProjectTests/Mock/Mock.generated.swift
+  targets:
+  - ProjectTests
+  testable:
+  - Project
+  import:
+  - Foundation
+  - UIKit
